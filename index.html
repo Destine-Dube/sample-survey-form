@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SURVEY FORM</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1 id="title">CUSTOMER SURVEY FORM</h1>
+		<p id="description">Please take your time to complete our customer survey</p>
+		</header>
+
+<form id="survey-form">
+	<label id="name-label" for="name"> Full Name</label><br>
+	<input  id="name" type="text" name="Name " placeholder="enter full name" required> <br>
+
+	<label id="email-label" for="Email">Email</label><br>
+	<input  id="email" type="email" name="email " placeholder="example@email.com" required><br>
+    
+    <label id="number-label" for="number">Number</label><br>
+	<input  id="number" type="number" name="number" min="5" max="10" placeholder="012 345 678"  required><br>
+
+	<label id="gender" for="gender">Gender</label>
+	<input  id="gender" type="radio" name="gender" value="Male">Male
+	<input  id="gender" type="radio" name="gender" value="Female">Female
+	<input  id="gender" type="radio" name="gender" value="Other">Other<br>
+
+	<p>This Enquiry is For</p>
+
+	<input type="checkbox" name="Individual" value="Individual">Individual<br>
+
+	<input type="checkbox" name="Business" value="Business">Business<br>
+
+	<input type="checkbox" name="N.G.O" value="N.G.O">N.G.O<br>
+
+	<input type="checkbox" name="Other" value="Other">Other<br>
+
+
+Please Select a Service:
+	<select id="dropdown" >
+
+		<option value="Web Design">Web Design</option>
+		<option value="Graphic Design">Graphic Design</option>
+		<option value="Photography">Phoograhy</option>
+		<option value="Sound Hire">Sound Hire</option>
+
+	</select><br>
+	<br>
+
+	Please enter additional information<br>
+<textarea>
+	
+
+</textarea>
+<br>
+
+<input type="submit" value="Submit" id="submit" class="button">
+
+	
+</form>
+
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
